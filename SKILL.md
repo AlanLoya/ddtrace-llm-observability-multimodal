@@ -1,4 +1,4 @@
----
+[---
 name: ddtrace-llm-observability-multimodal
 description: "Implement and troubleshoot Datadog LLM Observability with ddtrace for multimodal LLM calls. Use when adding LLMObs spans, annotating image or audio inputs, preventing truncated payload DATA_ISSUE evaluations, sanitizing URLs and secrets, enforcing structured output confidence, or migrating this pattern to another Python project."
 argument-hint: "Describe the LLM call, modality, provider, and output schema to instrument."
@@ -210,3 +210,4 @@ Common incorrect implementations:
 - [ ] Unverifiable visual extraction returns `null`.
 - [ ] Error paths are logged and explicitly annotated.
 - [ ] Focused tests cover payload shape, truncation prevention, and parser rejection cases.
+](https://dev.azure.com/ab-inbev-maz/MAZ_BTA/_git/maz-bta-spare-finder-crewai/pullrequest/97708)
